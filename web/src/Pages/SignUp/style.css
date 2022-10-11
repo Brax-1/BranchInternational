@@ -1,0 +1,89 @@
+.signup {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 40vw;
+}
+
+.signup_right {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 20px;
+	/* background: white; */
+	box-shadow: 0 0 10px -5px white;
+	border-radius: 10px;
+	max-width: 800px;
+	height: auto;
+}
+
+.signup_image {
+	border-radius: 10px;
+	width: inherit;
+}
+
+.signup_title {
+	font-size: 2.75rem;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 3.25rem;
+	max-width: 500px;
+	color: #f4f4f4;
+}
+.signup_title > span{
+	color: #bf0000 ;
+}
+
+.signup_subtitle {
+	font-size: 1.125rem;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 1.5rem;
+	color: #5f6368;
+	max-width: 30em;
+	padding: 20px 0;
+}
+
+.signup_buttons {
+	margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.login_input{
+    width: 100%;
+}
+.signup_createBTN {
+	background-color: #bf0000 !important;
+	padding: 10px 15px !important;
+}
+
+.signup_createBTN p {
+	margin-left: 5px !important;
+	text-transform: capitalize;
+}
+
+.icon {
+	color: #5f6368;
+}
+
+.signup_createaccount{
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.234);
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+.signup_input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 3px;
+    background-color: rgb(199, 199, 199);
+    outline: none;
+}
+.signup_input:focus ,.signup_input:hover{
+    background-color: white;
+}
