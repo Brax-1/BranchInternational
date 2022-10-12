@@ -5,13 +5,13 @@ const app = express();
 const http = require('http').createServer(app)
 const userRoutes = require("./routes/userRoutes")
 const queryRoutes = require("./routes/queriesRoutes")
+// console.log(window)
 const io = require('socket.io')(http, {
     cors: {
-      origin: "http://localhost:3000"
+      origin: `*`
     }
   });
 const { port,mongo_url } = require('./config');
-
 app.use(cors());
 app.use(express.json());
 app.use("/api/auth",userRoutes)
