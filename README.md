@@ -40,6 +40,7 @@
   ```
   cd web
   npm start
+  open link in url after successfull project running : http://localhost:3000/
   ```
 - Suggestion to use postman to test api routes
 
