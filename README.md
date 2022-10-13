@@ -9,12 +9,10 @@
 ## How to setup project
 
 - Clone the project and then change your directory
-
   ```
   git clone https://github.com/Brax-1/BranchInternational.git
   cd BranchInternational
   ```
-
 - Make sure you have node lts version(18.10.0) installed
 
 ### SetUp Server
@@ -39,11 +37,9 @@
   npm start
   ```
 ### Start just frontend
-
   ```
   cd web
   npm start
   ```
-
 - Suggestion to use postman to test api routes
 
