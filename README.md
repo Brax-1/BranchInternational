@@ -33,12 +33,12 @@
   ```
 - install dependencies & Start project both frontend and backend
   ```
-- Start just Backend api
+### Start just Backend api
   ```
   cd server
   npm start
   ```
-- Start just frontend
+### Start just frontend
 
   ```
   cd web
