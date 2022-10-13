@@ -31,7 +31,6 @@
   npm i
   npm start : To start front end
   ```
-- Start your mongodb server in your local environment
 - install dependencies & Start project both frontend and backend
   ```
 - Start just Backend api
